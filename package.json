@@ -1,11 +1,11 @@
 {
   "name": "mantine-vite-template",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "homepage": "https://eghazaryan.github.io/fishing-card/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "fishing-card -d build",
+    "deploy": "master -d build",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
