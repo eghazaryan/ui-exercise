@@ -40,9 +40,19 @@ export default createStyles((theme) => ({
     marginRight: 5,
   },
 
-  comments: {
+  rating: {
     display: "flex",
     alignItems: "center",
+  },
+
+  comments: {
+    "&:after": {
+      content: "''",
+      display: "block",
+      width: "88%",
+      margin: "auto",
+      borderBottom: `1px dotted ${theme.colors.gray[6]}`,
+    },
   },
 
   indicator: {

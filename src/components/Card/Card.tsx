@@ -68,10 +68,10 @@ export function Card({ data }: CardProps) {
         <Badge>{data.boat ? "On boat" : "On shore"}</Badge>
       </Group>
 
-      <div className={classes.comments}>
+      <div className={classes.rating}>
         <IconRatingStar rating={data.rating} />
 
-        <UnstyledButton>
+        <UnstyledButton className={classes.comments}>
           <Text color="dimmed">({data.comments} Comments)</Text>
         </UnstyledButton>
       </div>
