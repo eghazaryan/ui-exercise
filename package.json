@@ -1,6 +1,6 @@
 {
   "name": "mantine-vite-template",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
