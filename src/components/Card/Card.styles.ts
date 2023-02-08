@@ -61,7 +61,8 @@ export default createStyles((theme) => ({
   },
 
   button: {
-    marginTop: theme.spacing.md,
+    marginTop: 30,
+    height: 50,
     borderRadius: theme.spacing.md,
   },
 }));

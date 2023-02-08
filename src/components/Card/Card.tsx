@@ -34,8 +34,8 @@ export function Card({ data }: CardProps) {
     </Text>
   ));
 
-  const stats = data.stats.map((stat) => (
-    <Text className={classes.stat}>
+  const stats = data.stats.map((stat, index) => (
+    <Text className={classes.stat} key={index}>
       {statNames[stat.id]} <IconRatingStar rating={stat.value} />
     </Text>
   ));
