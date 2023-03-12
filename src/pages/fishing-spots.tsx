@@ -9,7 +9,7 @@ const data: CardData = {
     "The Great Barrier Reef in Australia offers a diverse range of fishing opportunities for both amateur and experienced anglers, with a variety of species such as coral trout, red emperor, and mackerel.",
   license: false,
   boat: true,
-  fish: ["Salmon", "Tuna", "Cod", "Trout"],
+  fish: ["Salmon", "Cod", "Trout"],
   rating: 4.5,
   comments: 43,
   bookmarked: false,
